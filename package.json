@@ -1,0 +1,16 @@
+{
+  "name": "week-2-whiteboard-questions",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon src/app.js",
+    "test": "./node_modules/.bin/jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest --runInBand"
+  },
+
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
